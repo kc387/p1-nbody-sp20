@@ -10,7 +10,7 @@ public class CelestialBody {
 	private double myXPos;
 	private double myYPos;
 	private double myXVel;
-        private double myYVel;
+	private double myYVel;
 	private double myMass;
 	private String myFileName;
 
