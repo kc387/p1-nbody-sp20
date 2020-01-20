@@ -1,1 +1,1 @@
-NBody simulation starter code for Compsci 201, Fall 2019
+NBody simulation starter code for Compsci 201, Spring 2020

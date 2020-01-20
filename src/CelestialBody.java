@@ -2,7 +2,7 @@
 
 /**
  * Celestial Body class for NBody
- * @author ola
+ * @author YOUR NAME HERE
  *
  */
 public class CelestialBody {
