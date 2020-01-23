@@ -1,3 +1,14 @@
+INSTRUCTIONS for Analysis Part
+
+This file contains questions for the analysis part of the assignment.
+You will need to copy these questions, answer them and save it as a .pdf. You
+may want to copy them into a program such as Word or Google Docs and when finished
+save it as a .pdf.
+
+You'll submit the .PDF version of your analysis as a separate submission on Gradescope.
+____________________________________________________________________________________
+
+
 This is analysis.txt
 Replace this line with your name
 Replace this line with your netid
