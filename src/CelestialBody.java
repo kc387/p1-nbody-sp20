@@ -74,7 +74,7 @@ public class CelestialBody {
 	 */
 	public double calcDistance(CelestialBody b) {
 		// TODO: complete method
-		double distance = Math.sqrt((getX() - this.myXPos) ** 2 + (getY() - this.myYPos));
+		double distance = Math.sqrt((getX() - this.myXPos) * (getX() - this.myXPos) + (getY() - this.myYPos) * (getY() - this.myYPos));
 		return distance;
 	}
 
