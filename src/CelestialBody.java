@@ -2,7 +2,7 @@
 
 /**
  * Celestial Body class for NBody
- * @author YOUR NAME HERE
+ * @author Kathleen Chen
  *
  */
 public class CelestialBody {
@@ -39,15 +39,15 @@ public class CelestialBody {
 
 	public double getX() {
 		// TODO: complete method
-		return 0.0;
+		return this.myXPos;
 	}
 	public double getY() {
 		// TODO: complete method
-		return 0.0;
+		return this.myYPos;
 	}
 	public double getXVel() {
 		// TODO: complete method
-		return 0.0;
+		return this.myXVel;
 	}
 	/**
 	 * Return y-velocity of this Body.
@@ -55,16 +55,16 @@ public class CelestialBody {
 	 */
 	public double getYVel() {
 		// TODO: complete method
-		return 0.0;
+		return this.myYVel;
 	}
 	
 	public double getMass() {
 		// TODO: complete method
-		return 0.0;
+		return this.myMass;
 	}
 	public String getName() {
 		// TODO: complete method
-		return "";
+		return this.myFileName;
 	}
 
 	/**
@@ -74,7 +74,8 @@ public class CelestialBody {
 	 */
 	public double calcDistance(CelestialBody b) {
 		// TODO: complete method
-		return 0.0;
+		double distance = Math.sqrt((getX() - this.myXPos) ** 2 + (getY() - this.myYPos));
+		return distance;
 	}
 
 	public double calcForceExertedBy(CelestialBody b) {
