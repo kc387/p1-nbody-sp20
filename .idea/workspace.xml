@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8c1fc2d3-8c81-4262-a204-8b03418f99b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/CelestialBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/CelestialBody.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CelestialBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CelestialBody.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +32,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.TestCalcForceExertedBy">
+  <component name="RunManager" selected="Application.TestCalcForceExertedByXY">
     <configuration name="TestBodyConstructorGetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestBodyConstructorGetters" />
       <module name="NBody-spring20" />
@@ -53,6 +54,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCalcForceExertedByXY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestCalcForceExertedByXY" />
+      <module name="NBody-spring20" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestReadBodies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestReadBodies" />
       <module name="NBody-spring20" />
@@ -60,20 +68,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReadRadius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestReadRadius" />
-      <module name="NBody-spring20" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCalcForceExertedByXY" />
         <item itemvalue="Application.TestCalcForceExertedBy" />
         <item itemvalue="Application.TestCalcDistance" />
         <item itemvalue="Application.TestBodyConstructorGetters" />
         <item itemvalue="Application.TestReadBodies" />
-        <item itemvalue="Application.TestReadRadius" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580431301079</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test">
+      <created>1580445103433</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580445103433</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,30 +154,30 @@
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="252" y="339" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.823@0.23.1440.823" timestamp="1580143877366" />
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1580431300909">
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1580445103295">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1580431300909" />
-    <state width="626" height="199" key="GridCell.Tab.0.bottom" timestamp="1580431094550">
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1580445103295" />
+    <state width="626" height="199" key="GridCell.Tab.0.bottom" timestamp="1580445114995">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1398" height="199" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580355122175" />
-    <state width="626" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1580431094550" />
-    <state width="626" height="199" key="GridCell.Tab.0.center" timestamp="1580431094549">
+    <state width="626" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1580445114995" />
+    <state width="626" height="199" key="GridCell.Tab.0.center" timestamp="1580445114994">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1398" height="199" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580355122173" />
-    <state width="626" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1580431094549" />
-    <state width="626" height="199" key="GridCell.Tab.0.left" timestamp="1580431094549">
+    <state width="626" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1580445114994" />
+    <state width="626" height="199" key="GridCell.Tab.0.left" timestamp="1580445114993">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1398" height="199" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580355122171" />
-    <state width="626" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1580431094549" />
-    <state width="626" height="199" key="GridCell.Tab.0.right" timestamp="1580431094550">
+    <state width="626" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1580445114993" />
+    <state width="626" height="199" key="GridCell.Tab.0.right" timestamp="1580445114994">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1398" height="199" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580355122174" />
-    <state width="626" height="199" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1580431094550" />
+    <state width="626" height="199" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1580445114994" />
     <state x="134" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580354677733">
       <screen x="0" y="23" width="1440" height="822" />
     </state>

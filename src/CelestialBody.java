@@ -110,12 +110,24 @@ public class CelestialBody {
 
 	public double calcNetForceExertedByX(CelestialBody[] bodies) {
 		// TODO: complete method
-		return 0.0;
+		double NetX = 0.0;
+		for(CelestialBody b : bodies) {
+			if ( ! b.equals(this)){
+				NetX += calcForceExertedByX(b);
+			}
+		}
+		return NetX;
 	}
 
 	public double calcNetForceExertedByY(CelestialBody[] bodies) {
 		// TODO: complete method
-		return 0.0;
+		double NetY = 0.0;
+		for(CelestialBody b : bodies) {
+			if (!b.equals(this)) {
+				NetY += calcForceExertedByY(b);
+			}
+		}
+		return NetY;
 	}
 
 	public void update(double deltaT, 
