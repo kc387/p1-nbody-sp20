@@ -26,6 +26,12 @@ public class CelestialBody {
 	public CelestialBody(double xp, double yp, double xv,
 			             double yv, double mass, String filename){
 		// TODO: complete constructor
+		myXPos = xp;
+		myYPos = yp;
+		myXVel = xv;
+		myYVel = yv;
+		myMass = mass;
+		myFileName = filename;
 	}
 
 	/**
@@ -35,6 +41,12 @@ public class CelestialBody {
 	 */
 	public CelestialBody(CelestialBody b){
 		// TODO: complete constructor
+		myXPos = b.getX();
+		myYPos = b.getY();
+		myXVel = b.getXVel();
+		myYVel = b.getYVel();
+		myMass = b.getMass();
+		myFileName = b.getName();
 	}
 
 	public double getX() {
@@ -74,18 +86,21 @@ public class CelestialBody {
 	 */
 	public double calcDistance(CelestialBody b) {
 		// TODO: complete method
-		double distance = Math.sqrt((getX() - this.myXPos) * (getX() - this.myXPos) + (getY() - this.myYPos) * (getY() - this.myYPos));
+		double distance = Math.sqrt((b.getX() - this.myXPos) * (b.getX() - this.myXPos) + (b.getY() - this.myYPos) * (b.getY() - this.myYPos));
 		return distance;
 	}
 
 	public double calcForceExertedBy(CelestialBody b) {
 		// TODO: complete method
-		return 0.0;
+		double G = 6.67e-11;
+		double F = (G * b.getMass() * this.myMass) / (calcDistance(b) * calcDistance(b));
+		return F;
 	}
 
 	public double calcForceExertedByX(CelestialBody b) {
 		// TODO: complete method
-		return 0.0;
+		double ForceX = 0.0;
+		return ForceX;
 	}
 	public double calcForceExertedByY(CelestialBody b) {
 		// TODO: complete method

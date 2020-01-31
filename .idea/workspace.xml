@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1fc2d3-8c81-4262-a204-8b03418f99b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/CelestialBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/CelestialBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/NBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/NBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/StdAudio$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/StdAudio$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/StdAudio$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/StdAudio$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/StdAudio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/StdAudio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/StdDraw$RetinaImageIcon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/StdDraw$RetinaImageIcon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/StdDraw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/StdDraw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/TestBodyConstructorGetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/TestBodyConstructorGetters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/TestCalcDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/TestCalcDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/TestCalcForceExertedBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/TestCalcForceExertedBy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/TestCalcForceExertedByXY.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/TestCalcForceExertedByXY.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/TestCalcNetForceExertedByXY.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/TestCalcNetForceExertedByXY.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/TestReadBodies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/TestReadBodies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/TestReadRadius.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/TestReadRadius.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NBody-spring20/TestUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NBody-spring20/TestUpdate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CelestialBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CelestialBody.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +46,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.TestReadBodies">
+  <component name="RunManager" selected="Application.TestCalcForceExertedBy">
     <configuration name="TestBodyConstructorGetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestBodyConstructorGetters" />
       <module name="NBody-spring20" />
@@ -42,6 +56,13 @@
     </configuration>
     <configuration name="TestCalcDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestCalcDistance" />
+      <module name="NBody-spring20" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCalcForceExertedBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestCalcForceExertedBy" />
       <module name="NBody-spring20" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,10 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestReadBodies" />
-        <item itemvalue="Application.TestReadRadius" />
+        <item itemvalue="Application.TestCalcForceExertedBy" />
         <item itemvalue="Application.TestCalcDistance" />
         <item itemvalue="Application.TestBodyConstructorGetters" />
+        <item itemvalue="Application.TestReadBodies" />
+        <item itemvalue="Application.TestReadRadius" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +115,21 @@
       <option name="presentableId" value="Default" />
       <updated>1567535141820</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1580354698177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580354698177</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1580354745664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580354745664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,18 +145,46 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="252" y="339" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580143877366">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="252" y="339" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.823@0.23.1440.823" timestamp="1580143877366" />
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1580354697690">
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1580354745525">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1580354697690" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1580354745525" />
+    <state width="626" height="199" key="GridCell.Tab.0.bottom" timestamp="1580431094550">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580355122175" />
+    <state width="626" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1580431094550" />
+    <state width="626" height="199" key="GridCell.Tab.0.center" timestamp="1580431094549">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580355122173" />
+    <state width="626" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1580431094549" />
+    <state width="626" height="199" key="GridCell.Tab.0.left" timestamp="1580431094549">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580355122171" />
+    <state width="626" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1580431094549" />
+    <state width="626" height="199" key="GridCell.Tab.0.right" timestamp="1580431094550">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580355122174" />
+    <state width="626" height="199" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1580431094550" />
     <state x="134" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580354677733">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="134" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.822@0.23.1440.822" timestamp="1580354677733" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1580354977403">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1580354977403" />
   </component>
 </project>
