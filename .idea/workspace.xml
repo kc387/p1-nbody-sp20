@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580487457550</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="test">
+      <created>1580490836448</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1580490836448</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,10 +243,10 @@
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="252" y="339" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.823@0.23.1440.823" timestamp="1580143877366" />
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1580487457404">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1580490836212">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1580485035050" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1580490836212" />
     <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.823@0.23.1440.823" timestamp="1580487457404" />
     <state width="626" height="198" key="GridCell.Tab.0.bottom" timestamp="1580490808619">
       <screen x="0" y="23" width="1440" height="823" />
@@ -265,11 +272,11 @@
     <state width="1398" height="199" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580355122174" />
     <state width="626" height="199" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1580484847790" />
     <state width="626" height="198" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1580490808618" />
-    <state x="134" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580487449265">
+    <state x="134" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580491039544">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="134" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.822@0.23.1440.822" timestamp="1580485024656" />
-    <state x="134" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.823@0.23.1440.823" timestamp="1580487449265" />
+    <state x="134" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.823@0.23.1440.823" timestamp="1580491039544" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1580354977403">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
