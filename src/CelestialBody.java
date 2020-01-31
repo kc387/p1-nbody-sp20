@@ -133,9 +133,20 @@ public class CelestialBody {
 	public void update(double deltaT, 
 			           double xforce, double yforce) {
 		// TODO: complete method
+		double ax = xforce/this.myMass;
+		double ay = yforce/this.myMass;
+		double nvx = this.myXVel + deltaT * ax;
+		double nvy = this.myYVel + deltaT * ay;
+		double nx = this.myXPos + deltaT * nvx;
+		double ny = this.myYPos + deltaT * nvy;
+		myXPos = nx;
+		myYPos = ny;
+		myXVel = nvx;
+		myYVel = nvy;
 	}
 
 	public void draw() {
 		// TODO: complete method
+		StdDraw.picture(myXPos, myYPos, "images/"+myFileName);
 	}
 }
