@@ -116,8 +116,7 @@ public class NBody {
 			
 			// TODO: loop over all bodies and call draw on each one
 			for(int k = 0; k < bodies.length; k+=1) {
-				CelestialBody a = bodies[k];
-				a.draw();
+				bodies[k].draw();
 			}
 
 			StdDraw.show();
