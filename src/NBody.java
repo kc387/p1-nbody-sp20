@@ -104,6 +104,10 @@ public class NBody {
 			StdDraw.picture(0,0,"images/starfield.jpg");
 			
 			// TODO: loop over all bodies and call draw on each one
+			for(int k = 0; k < bodies.length; k+=1) {
+				CelestialBody a = bodies[k];
+				a.draw();
+			}
 
 			StdDraw.show();
 			StdDraw.pause(10);
