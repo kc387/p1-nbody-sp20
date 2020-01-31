@@ -99,12 +99,13 @@ public class CelestialBody {
 
 	public double calcForceExertedByX(CelestialBody b) {
 		// TODO: complete method
-		double ForceX = 0.0;
+		double ForceX = (calcForceExertedBy(b) * (b.getX() - this.myXPos))/calcDistance(b);
 		return ForceX;
 	}
 	public double calcForceExertedByY(CelestialBody b) {
 		// TODO: complete method
-		return 0.0;
+		double ForceY = (calcForceExertedBy(b) * (b.getY() - this.myYPos))/calcDistance(b);
+		return ForceY;
 	}
 
 	public double calcNetForceExertedByX(CelestialBody[] bodies) {
