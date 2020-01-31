@@ -100,9 +100,9 @@ public class NBody {
 			// TODO: loop over all bodies, calculate netForcesX and Y
 			// net forces and store in xforces and yforces
 			for(int k = 0; k < bodies.length; k += 1) {
-				double xf = bodies[k].calcForceExertedByX(bodies[k]);
+				double xf = bodies[k].calcNetForceExertedByX(bodies);
 				xForces[k] = xf;
-				double yf = bodies[k].calcForceExertedByY(bodies[k]);
+				double yf = bodies[k].calcNetForceExertedByY(bodies);
 				yForces[k] = yf;
 			}
 			
