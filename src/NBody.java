@@ -44,7 +44,8 @@ public class NBody {
 			Scanner s = new Scanner(new File(fname));
 			
 			// TODO: read # bodies, create array, ignore radius
-			int nb = 0; // # bodies to be read
+			int nb = s.nextInt(); // # bodies to be read
+			double r = s.nextDouble();
 			
 			for(int k=0; k < nb; k++) {
 				

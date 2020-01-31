@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8c1fc2d3-8c81-4262-a204-8b03418f99b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NBody.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580482651298</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test">
+      <created>1580482783943</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580482783943</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test">
+      <created>1580483009671</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580483009671</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,10 +181,10 @@
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="252" y="339" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.823@0.23.1440.823" timestamp="1580143877366" />
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1580482783809">
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1580483009532">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1580482783809" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1580483009532" />
     <state width="626" height="199" key="GridCell.Tab.0.bottom" timestamp="1580482996865">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -190,10 +205,10 @@
     </state>
     <state width="1398" height="199" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580355122174" />
     <state width="626" height="199" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1580482996865" />
-    <state x="134" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580354677733">
+    <state x="134" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580483606442">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="134" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.822@0.23.1440.822" timestamp="1580354677733" />
+    <state x="134" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.822@0.23.1440.822" timestamp="1580483606442" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1580354977403">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
