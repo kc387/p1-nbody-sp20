@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+
 public class NBody {
 	
 	/**
@@ -46,17 +47,27 @@ public class NBody {
 			// TODO: read # bodies, create array, ignore radius
 			int nb = s.nextInt(); // # bodies to be read
 			double r = s.nextDouble();
+			CelestialBody[] b = new CelestialBody[nb];
 			
 			for(int k=0; k < nb; k++) {
 				
 				// TODO: read data for each body
 				// construct new body object and add to array
+				double xp = s.nextDouble();
+				double yp = s.nextDouble();
+				double xv = s.nextDouble();
+				double yv = s.nextDouble();
+				double mass = s.nextDouble();
+				String filename = s.next();
+				CelestialBody a = new CelestialBody(xp, yp, xv,yv, mass, filename);
+				b[k] = a;
+
 			}
 			
 			s.close();
 			
 			// TODO: return array of body objects read
-			return null;
+			return b;
 	}
 	public static void main(String[] args) throws FileNotFoundException{
 		double totalTime = 39447000.0;
