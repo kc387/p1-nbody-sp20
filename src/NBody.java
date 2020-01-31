@@ -23,11 +23,13 @@ public class NBody {
 	
 		// TODO: read values at beginning of file to
 		// find the radius
+		int n = s.nextInt();
+		double r = s.nextDouble();
 		
 		s.close();
 		
 		// TODO: return radius read
-		return 0;	
+		return r;
 	}
 	
 	/**
